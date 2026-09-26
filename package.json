@@ -1,0 +1,29 @@
+{
+  "name": "arenka",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Arena Breakout: Infinite map viewer and marker API",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --experimental-strip-types --test lib/filter.test.ts lib/profit.test.ts",
+    "sync-markers": "node scripts/sync-markers.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.20",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "typescript": "^5.9.2"
+  }
+}

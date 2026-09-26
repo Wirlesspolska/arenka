@@ -1,0 +1,337 @@
+{
+  "Label": {
+    "group": "Locations",
+    "icon": "/icons/label.webp",
+    "info": ""
+  },
+  "Key": {
+    "group": "Locations",
+    "icon": "/icons/key.svg",
+    "info": ""
+  },
+  "Retrieval Box": {
+    "group": "Locations",
+    "icon": "/icons/retrieval_box.svg",
+    "info": "After an operator is elminated you can use a retrieval box to send items back to your Mail for safe transit. Whether you successfully extract or not, your items will be back on them menu once sent. You can send a 2x3 area worth of items back."
+  },
+  "Safe": {
+    "group": "Safes",
+    "icon": "/icons/safe.svg",
+    "info": ""
+  },
+  "Safe (Behind Key)": {
+    "group": "Safes",
+    "icon": "/icons/key_safe.svg",
+    "info": ""
+  },
+  "Secret Safe": {
+    "group": "Safes",
+    "icon": "/icons/secret_safe.svg",
+    "info": ""
+  },
+  "Retro Safe": {
+    "group": "Safes",
+    "icon": "/icons/retro_safe.svg",
+    "info": ""
+  },
+  "Electronic Safe": {
+    "group": "Safes",
+    "icon": "/icons/e_safe.svg",
+    "info": ""
+  },
+  "Small Safe": {
+    "group": "Safes",
+    "icon": "/icons/small_safe.svg",
+    "info": ""
+  },
+  "Extract": {
+    "group": "Extracts",
+    "icon": "/icons/extract.svg",
+    "info": ""
+  },
+  "Covert Ops Extract": {
+    "group": "Extracts",
+    "icon": "/icons/extract-green.svg",
+    "info": ""
+  },
+  "No Backpack Extract": {
+    "group": "Extracts",
+    "icon": "/icons/no_backpack_extract.svg",
+    "info": ""
+  },
+  "Mission Extract": {
+    "group": "Extracts",
+    "icon": "/icons/mission_extract.svg",
+    "info": ""
+  },
+  "Spawn": {
+    "group": "Locations",
+    "icon": "/icons/spawn_point.svg",
+    "info": ""
+  },
+  "Lever": {
+    "group": "Interactions",
+    "icon": "/icons/lever.svg",
+    "info": ""
+  },
+  "Sniper Scav Spawn": {
+    "group": "Locations",
+    "icon": "/icons/sniper_scav.svg",
+    "info": "Sniper Scav Spawns are usually found in high locations and are a great way to tell if players have already been through there -- as they'll be dead. Players choose not to shoot them to keep up a facade. Be careful."
+  },
+  "Computers": {
+    "group": "Loot",
+    "icon": "/icons/home-computer.svg",
+    "info": "This category has Military and normal computers as one. Loot usually consists of cheaper wires and related items, but can be very profitable if you manage to find a GPU or similar item."
+  },
+  "Military Computers": {
+    "group": "Loot",
+    "icon": "/icons/computer.svg",
+    "info": "This category has Military and normal computers as one. Loot usually consists of cheaper wires and related items, but can be very profitable if you manage to find a GPU or similar item."
+  },
+  "Premium Suitcases": {
+    "group": "Loot",
+    "icon": "/icons/suitcase.svg",
+    "info": "Premium Suitcases hold cheaper items, but may contain more expensive larger items."
+  },
+  "Suitcases": {
+    "group": "Loot",
+    "icon": "/icons/suitcase.svg",
+    "info": "Suitcases hold anything from Soap to Golden Lions. They're always worth searching, so much so white suitcases recieved a Golden Lion sticker on the front."
+  },
+  "Jackets": {
+    "group": "Loot",
+    "icon": "/icons/jacket.svg",
+    "info": "Jackets contain mostly junk, if anything at all, but can contain keys/keycards for any map that cost a lot, as well as other high value loot like stamps, cartridges and more. Very valuable items like expensive Documents, as well as other small valuable items."
+  },
+  "Winter Coat": {
+    "group": "Loot",
+    "icon": "/icons/winter-coat2.svg",
+    "info": "Winter Coats are required for missions, and contain mostly junk, if anything at all, but can contain keys/keycards for any map that cost a lot, as well as other high value loot like stamps, cartridges and more. Very valuable items like expensive Documents, as well as other small valuable items."
+  },
+  "Tunnels": {
+    "group": "Loot",
+    "icon": "/icons/tunnel.svg",
+    "info": ""
+  },
+  "Medkits": {
+    "group": "Loot",
+    "icon": "/icons/medkit.svg",
+    "info": "Medkits contain quest items and medical supplies. Lots of sponges and items, but also can contain painkillers, bandages, surgery kits, and first aid kits of various sizes."
+  },
+  "Office Drawers": {
+    "group": "Loot",
+    "icon": "/icons/filing_cabinet.svg",
+    "info": "Office Drawers contain common components like tape and related items, but can rarely contain more valuable items such as the Cane."
+  },
+  "Info": {
+    "group": "Other",
+    "icon": "/icons/binoculars.svg",
+    "info": ""
+  },
+  "Ammo Caches": {
+    "group": "Loot",
+    "icon": "/icons/ammo_cache.svg",
+    "info": "Often contain valuable ammo, on all tiers of raids (relative to that raid)."
+  },
+  "Grenade Boxes": {
+    "group": "Loot",
+    "icon": "/icons/grenade_box.svg",
+    "info": ""
+  },
+  "Premium Weapon Cases": {
+    "group": "Loot",
+    "icon": "/icons/weapon_case_premium.svg",
+    "info": "Premium Weapon Cases usually contain weapon attachments, scopes, armor, ammo and even full-size weapons (usually of a medium-tier) and other related items. Can contain much rarer loot as well."
+  },
+  "Large Weapon Cases": {
+    "group": "Loot",
+    "icon": "/icons/weapon_case_large.svg",
+    "info": ""
+  },
+  "Weapon Cases": {
+    "group": "Loot",
+    "icon": "/icons/weapon_case.svg",
+    "info": ""
+  },
+  "Cash Registers": {
+    "group": "Loot",
+    "icon": "/icons/cash_register.svg",
+    "info": "Cash Registers usually has at least some money."
+  },
+  "Document Boxes": {
+    "group": "Loot",
+    "icon": "/icons/document_box.svg",
+    "info": "Usually contains worthless documents, but can rarely have much more expensive items."
+  },
+  "Gym Bags": {
+    "group": "Loot",
+    "icon": "/icons/gym_bag.svg",
+    "info": "Sometimes contains medical items, but usually just contains scraps."
+  },
+  "Long Weapon Cases": {
+    "group": "Loot",
+    "icon": "/icons/weapon_case_long.svg",
+    "info": "A weapon case containing usually grips, and other attachments. Sometimes weapons."
+  },
+  "Wooden Weapon Cases": {
+    "group": "Loot",
+    "icon": "/icons/weapon_case_long.svg",
+    "info": "A weapon case containing usually grips, and other attachments. Sometimes weapons."
+  },
+  "Toolboxes": {
+    "group": "Loot",
+    "icon": "/icons/toolbox.svg",
+    "info": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools."
+  },
+  "Storage Cases": {
+    "group": "Loot",
+    "icon": "/icons/storage_case.svg",
+    "info": "Storage Cases usually contain basic armor, weapon attachments or magaznies and other related items. Can contain much rarer loot as well."
+  },
+  "Military Supply Cases": {
+    "group": "Loot",
+    "icon": "/icons/military_supply_case.svg",
+    "info": "Military Supply Cases. usually contain weapon attachments or scopes and other related items. Can contain much rarer loot as well."
+  },
+  "Tactical Accessory Cases": {
+    "group": "Loot",
+    "icon": "/icons/tactical_case.svg",
+    "info": "Tactical Accessory Cases usually contain weapon attachments or scopes and other related items. Can contain much rarer loot as well."
+  },
+  "Large Material Crates": {
+    "group": "Loot",
+    "icon": "/icons/large_materials_crate.svg",
+    "info": "Large Material Crates usually contain weapon attachments or scopes and other related items. Can contain much rarer loot as well."
+  },
+  "Weapon Spawn": {
+    "group": "Loot",
+    "icon": "/icons/loose_weapon.svg",
+    "info": "Weapons have a chance to spawn here as loose loot would. Sometimes hanging on the wall or another location."
+  },
+  "Medium Weapon Cases": {
+    "group": "Loot",
+    "icon": "/icons/weapon_case_medium.svg",
+    "info": "Medium Weapon Cases usually contain attachments and smaller weapons (usually of a low-tier) and other related items. Can contain much rarer loot as well."
+  },
+  "Abandoned Crate": {
+    "group": "Loot",
+    "icon": "/icons/abandoned_crate.svg",
+    "info": "Abandoned Crates are usually found in hidden locations and contain valuable loot."
+  },
+  "Airdrops": {
+    "group": "Loot",
+    "icon": "/icons/airdrop.svg",
+    "info": "Airdrops are usually found in somewhat hidden locations and usually contain really valuable loot. You can easily tell if they've been looted from a distance."
+  },
+  "Loose Loot": {
+    "group": "Loot",
+    "icon": "/icons/loose_loot.svg",
+    "info": "Loose Loot spawns here. Can be anything from ammo to basic tools."
+  },
+  "Gold Item Spawn": {
+    "group": "Loot",
+    "icon": "/icons/gold_item.webp",
+    "info": "Gold Item Spawns are areas where players have found Gold-tier items spawning. These are usually very rare, and often only appear in higher difficulties."
+  },
+  "Crawl Spaces": {
+    "group": "Locations",
+    "icon": "/icons/crawl_space.webp",
+    "info": ""
+  },
+  "Red Item Spawn": {
+    "group": "Loot",
+    "icon": "/icons/red_item.webp",
+    "info": "Red Item Spawns are areas where players have found Red-tier items spawning. These are usually very rare, and often only appear in higher difficulties."
+  },
+  "Lookout/Rat Spot": {
+    "group": "Other",
+    "icon": "/icons/rat_spot.svg",
+    "info": "Common area for players to be hiding, or looking out from. Often by extracts, or over high value loot areas."
+  },
+  "Key Spawn": {
+    "group": "Locations",
+    "icon": "/icons/gzw/keys/generic_spawn.webp",
+    "info": "It is possible for keys and keycards to spawn as items in the world here."
+  },
+  "Hazmat Jacket": {
+    "group": "Loot",
+    "icon": "/icons/hazmat.svg",
+    "info": "A jacket, with a slightly better loot pool."
+  },
+  "Camera Terminal": {
+    "group": "Interactions",
+    "icon": "/icons/monitor.svg",
+    "info": "Access linked cameras from this terminal."
+  },
+  "Camera": {
+    "group": "Interactions",
+    "icon": "/icons/camera.svg",
+    "info": "Allows you to view the monitored area from the linked Camera Terminal.."
+  },
+  "Biscuit Tin": {
+    "group": "Loot",
+    "icon": "/icons/biscuit_tinv2.svg",
+    "info": "Small containers that often contain almost worthless items, but can rarely contain expensive items like watches and more!"
+  },
+  "Car": {
+    "group": "Loot",
+    "icon": "/icons/arc/car.webp",
+    "info": "Players can open the trunk of these cars for some loot, but they can often trigger a loud car alarm alerting even distant players. Feeling lucky?"
+  },
+  "Large Crate": {
+    "group": "Loot",
+    "icon": "/icons/arc/archive_box.webp",
+    "info": "Large wooden boxes with some loot. Rarely valuable."
+  },
+  "Trash Bins": {
+    "group": "Loot",
+    "icon": "/icons/df/garbage-bin.svg",
+    "info": "Large dumpsters that can very rarely contain valuable loot."
+  },
+  "Ladder": {
+    "group": "Other",
+    "icon": "/icons/arc/ladder.webp",
+    "info": "Use this to travel between levels."
+  },
+  "Access Terminal": {
+    "group": "Interactions",
+    "icon": "/icons/access-terminal.svg",
+    "info": "Enter 3 digits to open the linked doors. These can be found around the map in items that spawn randomly."
+  },
+  "Sliding Doors": {
+    "group": "Interactions",
+    "icon": "/icons/sliding-doors.svg",
+    "info": "Sliding Doors to the lobby."
+  },
+  "Boss Spawn": {
+    "group": "Interactions",
+    "icon": "/icons/skull.svg",
+    "info": "Map Boss has a chance to spawn in this location. Be careful!"
+  },
+  "Devotion Statue": {
+    "group": "Distortion",
+    "icon": "/icons/devotion-statuev2.svg",
+    "info": "10 seconds to use. Scales uneven when used. Can be used once per raid.\\\\nDevotion Statues were added in Season 5 and are available in Distortion gamemodes."
+  },
+  "Phone Booth": {
+    "group": "Distortion",
+    "icon": "/icons/phone-booth.svg",
+    "info": "You can extract here."
+  },
+  "Orbs": {
+    "group": "Distortion",
+    "icon": "/icons/black-orb.svg",
+    "info": "Added in Season 5 and are available in Distortion gamemodes"
+  },
+  "Traffic Light": {
+    "group": "Distortion",
+    "icon": "/icons/traffic-lightv2.svg",
+    "info": "Added in Season 5 and are available in Distortion gamemodes"
+  },
+  "Field Merchant": {
+    "group": "Distortion",
+    "icon": "/icons/field_merchant.svg",
+    "info": "Purchase items in-raid."
+  }
+}

@@ -1,0 +1,160 @@
+import type { AbiMap } from "./types";
+
+const shared = {
+  tileSize: 256,
+  minZoom: 0,
+  pixelZoom: 6,
+  radiusMultiplier: 5,
+  zoomToMarker: 5,
+  hideUnassigned: [] as string[],
+  includeUnassigned: {} as Record<string, string[]>,
+  difficultyInheritance: {} as Record<string, string>,
+  tileOffsetScale: [1, 1] as [number, number],
+};
+
+export const MAPS: AbiMap[] = [
+  {
+    ...shared,
+    slug: "farm",
+    name: "Farm",
+    image: "/maps/abi/farm.webp",
+    width: 12644,
+    height: 6164,
+    maxZoom: 6,
+    tileOffset: [-25, -15],
+    tileUrl: "/abi/farms2/{level}/{x}/{y}.webp",
+    levels: ["2F", "1F", "B1"],
+    defaultLevel: "1F",
+    difficulties: ["Normal", "Lockdown", "Forbidden"],
+    defaultDifficulty: "Normal",
+    overlays: [
+      { floor: "B1", bounds: [[-25, -15], [12714, 6194]], url: "/abi/farms2/B1.svg", tiled: false },
+      { floor: "1F", bounds: [[-25, -15], [12714, 6194]], url: "/abi/farms2/1F.svg", tiled: false },
+      { floor: "2F", bounds: [[-25, -15], [12714, 6194]], url: "/abi/farms2/2F.svg", tiled: false },
+    ],
+  },
+  {
+    ...shared,
+    slug: "airport",
+    name: "Airport",
+    image: "/maps/abi/airport.webp",
+    width: 16384,
+    height: 8192,
+    maxZoom: 6,
+    tileOffset: [-25, -15],
+    tileUrl: "/abi/airport/{level}/{x}/{y}.webp",
+    levels: ["2F", "1F", "B1"],
+    defaultLevel: "1F",
+    difficulties: ["Lockdown", "Forbidden", "Endless"],
+    defaultDifficulty: "Forbidden",
+    hideUnassigned: ["Endless"],
+    includeUnassigned: { Endless: ["Key"] },
+    overlays: [
+      { floor: "1F", bounds: [[7554, 3622], [8844, 5044]], url: "/abi/airport/1F.webp", tiled: false },
+      { floor: "2F", bounds: [[7554, 3622], [8844, 5044]], url: "/abi/airport/2F.webp", tiled: false },
+      { floor: "1F", bounds: [[0, 0], [16404, 8200]], url: "/abi/airport/1F.svg", tiled: false },
+      { floor: "2F", bounds: [[0, 0], [16404, 8200]], url: "/abi/airport/2Fv2.svg", tiled: false },
+    ],
+  },
+  {
+    ...shared,
+    slug: "armory",
+    name: "Armory",
+    image: "/maps/abi/armory.webp",
+    width: 15262,
+    height: 7194,
+    maxZoom: 6,
+    tileOffset: [-25, -15],
+    tileUrl: "/abi/armory/{level}/{x}/{y}.webp",
+    levels: ["2F", "1F", "B1"],
+    defaultLevel: "1F",
+    difficulties: ["Normal", "Lockdown", "Forbidden"],
+    defaultDifficulty: "Normal",
+    overlays: [
+      { floor: "B1", bounds: [[7275, 5147], [9055, 6917]], url: "/abi/armory/B1.webp", tiled: false },
+      { floor: "1F", bounds: [[7275, 5147], [9055, 6917]], url: "/abi/armory/1F.webp", tiled: false },
+      { floor: "2F", bounds: [[7273, 5145], [9054, 6916]], url: "/abi/armory/2F.webp", tiled: false },
+    ],
+  },
+  {
+    ...shared,
+    slug: "northridge",
+    name: "Northridge",
+    image: "/maps/abi/northridge.webp",
+    width: 10828,
+    height: 6604,
+    maxZoom: 6,
+    tileOffset: [-2, -2],
+    tileOffsetScale: [1.004, 1.004],
+    tileUrl: "/abi/northridge_snow/{level}/{x}/{y}.webp",
+    levels: ["3F", "2F", "1F", "B1", "B2"],
+    defaultLevel: "1F",
+    difficulties: ["Normal", "Lockdown", "Forbidden"],
+    defaultDifficulty: "Normal",
+    overlays: [
+      { floor: "B2", bounds: [[0, 0], [10910, 6654]], url: "/abi/northridge_snow/B2.svg", tiled: false },
+      { floor: "B1", bounds: [[0, 0], [10910, 6654]], url: "/abi/northridge_snow/B1.svg", tiled: false },
+      { floor: "1F", bounds: [[0, 0], [10910, 6654]], url: "/abi/northridge_snow/1F.svg", tiled: false },
+      { floor: "2F", bounds: [[0, 0], [10910, 6654]], url: "/abi/northridge_snow/2F.svg", tiled: false },
+      { floor: "3F", bounds: [[0, 0], [10910, 6654]], url: "/abi/northridge_snow/3F.svg", tiled: false },
+    ],
+  },
+  {
+    ...shared,
+    slug: "tv-station",
+    name: "TV Station",
+    image: "/maps/abi/tv-station.webp",
+    width: 15268,
+    height: 8588,
+    maxZoom: 6,
+    // z6 tiles are 30×17. That grid is half the 15268×8588 coordinate space, so 1:1 is zoom 7.
+    pixelZoom: 7,
+    tileOffset: [0, 0],
+    levels: ["2F", "1F"],
+    defaultLevel: "1F",
+    difficulties: ["Normal", "Lockdown", "Forbidden"],
+    defaultDifficulty: "Normal",
+    overlays: [
+      { floor: "1F", bounds: [[0, 0], [15268, 8588]], url: "/abi/tvstation/1F/{level}/{x}/{y}.webp", tiled: true },
+      { floor: "2F", bounds: [[0, 0], [15268, 8588]], url: "/abi/tvstation/2F/{level}/{x}/{y}.webp", tiled: true },
+    ],
+  },
+  {
+    ...shared,
+    slug: "valley",
+    name: "Valley",
+    image: "/maps/abi/valley.webp",
+    width: 16078,
+    height: 7056,
+    maxZoom: 6,
+    tileOffset: [0, 0],
+    tileUrl: "/abi/valley/{level}/{x}/{y}.webp",
+    levels: ["2F", "1F", "B1"],
+    defaultLevel: "1F",
+    difficulties: ["Normal", "Lockdown", "Forbidden", "Distortion", "Deep Distortion"],
+    defaultDifficulty: "Normal",
+    difficultyInheritance: { Distortion: "Lockdown", "Deep Distortion": "Forbidden" },
+    overlays: [
+      { floor: "B1", bounds: [[0, 0], [16138, 7086]], url: "/abi/valley/B1.svg", tiled: false },
+      { floor: "1F", bounds: [[0, 0], [16138, 7086]], url: "/abi/valley/1F.svg", tiled: false },
+      { floor: "2F", bounds: [[0, 0], [16138, 7086]], url: "/abi/valley/2F.svg", tiled: false },
+    ],
+  },
+];
+
+export function getMap(slug: string): AbiMap | undefined {
+  return MAPS.find((map) => map.slug === slug);
+}
+
+export const FLOOR_LABEL: Record<string, string> = {
+  "3F": "2nd",
+  "2F": "1st",
+  "1F": "Ground",
+  B1: "B1",
+  B2: "B2",
+  Outside: "Outside",
+};
+
+export function floorLabel(level: string): string {
+  return FLOOR_LABEL[level] ?? level;
+}
