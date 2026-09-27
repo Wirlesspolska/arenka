@@ -6,3 +6,5 @@ _tiles
 *.tsbuildinfo
 .vercel
 .env*.local
+
+.vercel
